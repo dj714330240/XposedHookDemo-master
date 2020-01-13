@@ -1,0 +1,21 @@
+POST /redpacket/redpacket/detail HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh
+Appversion: 3.0.7
+Authorization: eoso6XL188CZlNicw7RjoYUcz09djsT/E6i1y/zKleY+SHNSIIv0IKpa1kbTe7VQRnNillN5CIcb1/xWgsL90JkILLYvwVxrrx7UjwbjgM0NNW07tJSJe722HmvwVH4aHDcuC7RNDU1xjf4kTps7Gccl0C8zPeXFbY4SlKsQPtVeJhhyuYSiXu/gNHlYfPnWJ7mMWA2Mqp3uEFNgvj/p8JQfdroGgOB1KzceiTiKvtMbuWjXHctJNFHqZoXF53TzTZ7Dv4zcwNXxY9mmt7zE50QwBQg3crbOujRDQB8DyADwnaBLDlZM0WUmQnyg5Xyz30mrpLP0Z4hnApMScVHw5xVp3yWOr0MqDkfvcn+Fk+uFkXLXRescsoHifybXJ5/bhZB1O9/Csc7bugrSVPI7E9WPArOsMtMiRnPWTLOMotrgCEz+RCBk2Zhe4oU/uW/Z1G1So7LuD1MEEeX7mogxqMYN2gHka6GzkkZLLOWt7tK83VkJ/oYSRPilJocEqBncf6fdMZW0O+FjXYqLnQS9CExxa6rISfnXlvmjVnGq2/YIhWKAnaX5leplYjIbEMsqD/sn1UEDTRiPpT6pUnuFJzKyn/HlUxilONBtCny74XYU7InZi1Rqg4aaFY8QPuYXh2aRAqmvGOT3tSIEnCeFfvL9pa0wqEOFkAtCzaoGgEl9zp/QdgHtW1uMv+ohjdVUmIManVXseXIBwiq2FymEtfQsnwYzUSVT6E6F96zZj0QlmVT/LHra+Z/bet9XWBrbcIMmiql44A3FA5WS6jhcJjDe2q9wTKTSZy5tTjt+rpEGUg7cxvR2RmrxbOgEsoQopO4uZLH6R6N5ZSl2zEgh1+CDXygnv+VdX8GQxtMd26tt15eywClm7gq0hUNHKoz3
+Connection: close
+Content-Type: application/json
+Cookie: $Version="1"; __cdnuid_s="b40eb8bdbcfe2159ddc37a28e3b1b238";$Path="/";$Domain="wujiu.876315.com"
+Devicemodel: PACT00
+Devicetype: 2
+Host: wujiu.876315.com
+Systemversion: 9
+Tenant: wujiu590
+Type: APP
+User-Agent: Mozilla/5.0 (Linux; U; Android 9; en; PACT00 Api/PPR1.180610.011) AppleWebKit/534.30 (KHTML, like Gecko) Version/5.0 Mobile Safari/534.30
+Username: 18879713881
+Version: 3.0.7
+Content-Length: 284
+
+{"encryptData":"HYrLcs8Qbfx2PIOE4cebp2X9WdoL4cFwYwzv0c88NaA=\n","encryptKey":"D21LY7mPLBYq/amE4EFQcKseeysyXTk55+KCrTGSR1Cz+uJ+RUiFdbiwaEXtnVWtpfFShzCVRfDh\nJrn3CDItt7QaMsBYyYWNvZ7q/eo0pMZiJAsjEIOrymZXFusNfhgJfvEBnp3pNMlDpzlLvpWGvJxz\nkPRe335m1YeTJ4MB75w=\n","timestamp":1578721868345}

@@ -1,0 +1,113 @@
+POST /redpacket/redpacket/grab HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh
+Appversion: 3.0.7
+Authorization: eoso6XL188CZlNicw7RjoYUcz09djsT/E6i1y/zKleY+SHNSIIv0IKpa1kbTe7VQRnNillN5CIcb1/xWgsL90JkILLYvwVxrrx7UjwbjgM0NNW07tJSJe722HmvwVH4aHDcuC7RNDU1xjf4kTps7Gccl0C8zPeXFbY4SlKsQPtVeJhhyuYSiXu/gNHlYfPnWJ7mMWA2Mqp3uEFNgvj/p8JQfdroGgOB1KzceiTiKvtMbuWjXHctJNFHqZoXF53TzTZ7Dv4zcwNXxY9mmt7zE50QwBQg3crbOujRDQB8DyADwnaBLDlZM0WUmQnyg5Xyz30mrpLP0Z4hnApMScVHw5xVp3yWOr0MqDkfvcn+Fk+uFkXLXRescsoHifybXJ5/bhZB1O9/Csc7bugrSVPI7E9WPArOsMtMiRnPWTLOMotrgCEz+RCBk2Zhe4oU/uW/Z1G1So7LuD1MEEeX7mogxqMYN2gHka6GzkkZLLOWt7tK83VkJ/oYSRPilJocEqBncf6fdMZW0O+FjXYqLnQS9CExxa6rISfnXlvmjVnGq2/YIhWKAnaX5leplYjIbEMsqD/sn1UEDTRiPpT6pUnuFJzKyn/HlUxilONBtCny74XYU7InZi1Rqg4aaFY8QPuYXh2aRAqmvGOT3tSIEnCeFfvL9pa0wqEOFkAtCzaoGgEl9zp/QdgHtW1uMv+ohjdVUmIManVXseXIBwiq2FymEtfQsnwYzUSVT6E6F96zZj0QlmVT/LHra+Z/bet9XWBrbcIMmiql44A3FA5WS6jhcJjDe2q9wTKTSZy5tTjt+rpEGUg7cxvR2RmrxbOgEsoQopO4uZLH6R6N5ZSl2zEgh1+CDXygnv+VdX8GQxtMd26tt15eywClm7gq0hUNHKoz3
+Connection: close
+Content-Type: application/json
+Cookie: $Version="1"; __cdnuid_s="b40eb8bdbcfe2159ddc37a28e3b1b238";$Path="/";$Domain="wujiu.876315.com"
+Devicemodel: PACT00
+Devicetype: 2
+Host: wujiu.876315.com
+Systemversion: 9
+Tenant: wujiu590
+Type: APP
+User-Agent: Mozilla/5.0 (Linux; U; Android 9; en; PACT00 Api/PPR1.180610.011) AppleWebKit/534.30 (KHTML, like Gecko) Version/5.0 Mobile Safari/534.30
+Username: 18879713881
+Version: 3.0.7
+Content-Length: 284
+
+{"encryptData":"XIa5w5kRNVrOF4ovI/Ad7qKOE7hwrQV2iBCTmiX0eP4=\n","encryptKey":"eX4hgbZdxwsZ5e9LmD1eJTjUigv2BW97fiw7q5StzjFx98enReG+t9TDthgyD+AhBMdChWRQjqUx\n2uWp9H/twi88cuq4jlrUHoFEdbWGLASmGSNQRB+qM5i55ewUtutYCeZRXCaWqbMt88Gw0aumTAta\nM/AdKHtWWEekBTxHtYc=\n","timestamp":1578721853876}
+
+
+
+
+01-11 15:45:47.444 I/Xposed  (  254): -----------------
+01-11 15:45:47.444 I/Xposed  (  254): Starting Xposed version 89, compiled for SDK 23
+01-11 15:45:47.444 I/Xposed  (  254): Device: Galaxy S8+ (samsung), Android version 6.0.1 (SDK 23)
+01-11 15:45:47.444 I/Xposed  (  254): ROM: V417IR release-keys
+01-11 15:45:47.444 I/Xposed  (  254): Build fingerprint: OnePlus/OnePlus2/OnePlus2:6.0.1/MMB29M/1447841200:user/release-keys
+01-11 15:45:47.444 I/Xposed  (  254): Platform: x86, 32-bit binary, system server: yes
+01-11 15:45:47.444 I/Xposed  (  254): SELinux enabled: no, enforcing: no
+01-11 15:45:49.578 I/Xposed  (  254): -----------------
+01-11 15:45:49.578 I/Xposed  (  254): Added Xposed (/system/framework/XposedBridge.jar) to CLASSPATH
+01-11 15:45:49.699 I/Xposed  (  254): Detected ART runtime
+01-11 15:45:49.705 I/Xposed  (  254): Found Xposed class 'de/robv/android/xposed/XposedBridge', now initializing
+01-11 15:45:49.995 I/Xposed  (  254): Loading modules from /data/app/com.example.la0s.xposedhook-2/base.apk
+01-11 15:45:50.016 I/Xposed  (  254):   Loading class com.example.la0s.xposedhook.XposedHook
+01-11 15:45:51.643 I/Xposed  (  631): Loaded app: android
+01-11 15:45:54.110 I/Xposed  (  631): Loaded app: com.android.providers.settings
+01-11 15:45:54.880 I/Xposed  (  705): Loaded app: com.android.systemui
+01-11 15:45:55.469 I/Xposed  (  807): Loaded app: com.netease.nemu_vinput.nemu
+01-11 15:45:55.567 I/Xposed  (  864): Loaded app: com.netease.nemu_vapi_android.nemu
+01-11 15:45:55.575 I/Xposed  (  631): Loaded app: com.android.server.telecom
+01-11 15:45:55.590 I/Xposed  (  844): Loaded app: com.mumu.audio
+01-11 15:45:55.629 I/Xposed  (  901): Loaded app: com.mumu.launcher
+01-11 15:45:55.677 I/Xposed  (  631): Loaded app: com.android.location.fused
+01-11 15:45:56.350 I/Xposed  (  975): Loaded app: com.android.providers.downloads
+01-11 15:45:56.383 I/Xposed  (  975): Loaded app: com.android.providers.media
+01-11 14:22:58.825 I/Xposed  ( 1024): Loaded app: com.mumu.store
+01-11 14:22:59.438 I/Xposed  ( 1068): Loaded app: com.mumu.acc
+01-11 14:23:00.408 I/Xposed  ( 1109): Loaded app: com.android.providers.calendar
+01-11 14:23:00.424 I/Xposed  ( 1101): Loaded app: com.android.keychain
+01-11 14:23:04.364 I/Xposed  ( 1191): 签名--key--Authorization-------Basic YXBwX2hibDphcHBfaGJs
+01-11 14:23:04.425 I/Xposed  ( 1191): 签名--key--authorization-------eoso6XL188CZlNicw7RjoYUcz09djsT/E6i1y/zKlea1eOcN1l9DU0JsPi4X1lP6V8tru+nSSog1LLB56Oc5JXLwRTRo9mBrS7+3TBnNxL7vVc1eddHKB3qPEWZBRwMPZHYmoP4YIjo2Wg+Z+G7cS6tRo8T8gjWE2d54JiS7IEudq6CywEGCzvDwjKZ49zy5J/ZpFMm4Z/Y08gu5FBgl68Wx2agpr8Up7KXc3s0c3VB3yq+fg9uYyfmofL00uZvLlPLPw/B7FrSUX0rLpYzMa5uRexspoBzsEuNRm5v3KgR4Lemco9TeNspqaOZqDK1/BIttGzmUmrUeuWdXBEnocrzqKhYf9HvZ4Ez7M6f+gC+l8oYd+7BLulGXqNt/N29TEAk7rPYXB325VwTHQmJFYVi65fhlHjaC+VHgJgv0mWIiv/osl3H5VE/pD4KZItaSlUu4mbw4AR0MvNvN5rcY4AODY84slwtfAC1WltqWtESXj0YCYDPETHdC+NNGq+7jTujKOmd9NUoiPRt7Iwm48+zqHgHBK3+ZZ7xgwOzXBHFrV4hhD3AgLhRFU3IcOuIsrQAtcrIFVbnDfz/gMWDOQiwne8Uf49RdhRoBHDirdPX7kiBu5pVD1qmgCkysrwElCS7Wn191zlVklTHcD2jwIQkE5EcIH/3CzVLu7vQzv1klRlWO5ZvkijZ7AvRjerfBEzwLpZVRlAP8pYsAN/52cVj++hY49lhn34TcfMC4VsetbHlS8Lm/IAysV5yuPPzz73ljl9gXapxLmsFjCCzmcx64VXr5JJ9w7vREulNZtd6QMpVU+bgmnR8kREqY/kfybhg+UwltOkxT3sJ8DHCeHA7/eHV2X8AbeK4HvZ446MTsI/ILmGkBLOK4Bzn0qNRn
+01-11 14:23:04.425 I/Xposed  ( 1191): 签名--key--upload_url-------https://file.em558.com
+01-11 14:23:04.425 I/Xposed  ( 1191): 签名--key--upload_key-------AKIAIOSFODNN7EXAMPLE
+01-11 14:23:04.425 I/Xposed  ( 1191): 签名--key--upload_secret-------wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKFY
+01-11 14:23:04.425 I/Xposed  ( 1191): 签名--key--public_key-------MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy93Ll96f4bY9RUMrc0/y/+p74SwkKFQU4qkFlaZ1AgUHoDGGW1B6d3yT+39kJNscQclc1mEqHJGTSNaL4l5+2On6xtOT65FpbP/XI09bPOlPFCOdTaJlqVZf8T8F65+AX/rkyoj9PlLJTxUv+UuudvvbOnRFCSTyszteP9sqzAQIDAQAB
+01-11 14:23:04.426 I/Xposed  ( 1191): 签名--key--phone-------18879713881
+01-11 14:23:04.459 I/Xposed  ( 1191): beforeHookedMethodnull
+01-11 14:23:04.459 I/Xposed  ( 1191): afterHookedMethodnull
+01-11 14:23:04.554 I/Xposed  ( 1191): 签名--key--accessToken-------eoso6XL188CZlNicw7RjoYUcz09djsT/E6i1y/zKlea1eOcN1l9DU0JsPi4X1lP6V8tru+nSSog1LLB56Oc5JXLwRTRo9mBrS7+3TBnNxL7vVc1eddHKB3qPEWZBRwMPZHYmoP4YIjo2Wg+Z+G7cS6tRo8T8gjWE2d54JiS7IEudq6CywEGCzvDwjKZ49zy5J/ZpFMm4Z/Y08gu5FBgl68Wx2agpr8Up7KXc3s0c3VB3yq+fg9uYyfmofL00uZvLlPLPw/B7FrSUX0rLpYzMa5uRexspoBzsEuNRm5v3KgR4Lemco9TeNspqaOZqDK1/BIttGzmUmrUeuWdXBEnocrzqKhYf9HvZ4Ez7M6f+gC+l8oYd+7BLulGXqNt/N29TEAk7rPYXB325VwTHQmJFYVi65fhlHjaC+VHgJgv0mWIiv/osl3H5VE/pD4KZItaSlUu4mbw4AR0MvNvN5rcY4AODY84slwtfAC1WltqWtESXj0YCYDPETHdC+NNGq+7jTujKOmd9NUoiPRt7Iwm48+zqHgHBK3+ZZ7xgwOzXBHFrV4hhD3AgLhRFU3IcOuIsrQAtcrIFVbnDfz/gMWDOQiwne8Uf49RdhRoBHDirdPX7kiBu5pVD1qmgCkysrwElCS7Wn191zlVklTHcD2jwIQkE5EcIH/3CzVLu7vQzv1klRlWO5ZvkijZ7AvRjerfBEzwLpZVRlAP8pYsAN/52cVj++hY49lhn34TcfMC4VsetbHlS8Lm/IAysV5yuPPzz73ljl9gXapxLmsFjCCzmcx64VXr5JJ9w7vREulNZtd6QMpVU+bgmnR8kREqY/kfybhg+UwltOkxT3sJ8DHCeHA7/eHV2X8AbeK4HvZ446MTsI/ILmGkBLOK4Bzn0qNRn
+01-11 14:23:04.555 I/Xposed  ( 1191): 签名--key--wsUrl-------ws://imwujiu.876315.com
+01-11 14:23:04.555 I/Xposed  ( 1191): 签名--key--accessToken-------eoso6XL188CZlNicw7RjoYUcz09djsT/E6i1y/zKlea1eOcN1l9DU0JsPi4X1lP6V8tru+nSSog1LLB56Oc5JXLwRTRo9mBrS7+3TBnNxL7vVc1eddHKB3qPEWZBRwMPZHYmoP4YIjo2Wg+Z+G7cS6tRo8T8gjWE2d54JiS7IEudq6CywEGCzvDwjKZ49zy5J/ZpFMm4Z/Y08gu5FBgl68Wx2agpr8Up7KXc3s0c3VB3yq+fg9uYyfmofL00uZvLlPLPw/B7FrSUX0rLpYzMa5uRexspoBzsEuNRm5v3KgR4Lemco9TeNspqaOZqDK1/BIttGzmUmrUeuWdXBEnocrzqKhYf9HvZ4Ez7M6f+gC+l8oYd+7BLulGXqNt/N29TEAk7rPYXB325VwTHQmJFYVi65fhlHjaC+VHgJgv0mWIiv/osl3H5VE/pD4KZItaSlUu4mbw4AR0MvNvN5rcY4AODY84slwtfAC1WltqWtESXj0YCYDPETHdC+NNGq+7jTujKOmd9NUoiPRt7Iwm48+zqHgHBK3+ZZ7xgwOzXBHFrV4hhD3AgLhRFU3IcOuIsrQAtcrIFVbnDfz/gMWDOQiwne8Uf49RdhRoBHDirdPX7kiBu5pVD1qmgCkysrwElCS7Wn191zlVklTHcD2jwIQkE5EcIH/3CzVLu7vQzv1klRlWO5ZvkijZ7AvRjerfBEzwLpZVRlAP8pYsAN/52cVj++hY49lhn34TcfMC4VsetbHlS8Lm/IAysV5yuPPzz73ljl9gXapxLmsFjCCzmcx64VXr5JJ9w7vREulNZtd6QMpVU+bgmnR8kREqY/kfybhg+UwltOkxT3sJ8DHCeHA7/eHV2X8AbeK4HvZ446MTsI/ILmGkBLOK4Bzn0qNRn
+01-11 14:23:04.556 I/Xposed  ( 1191): 签名--key--wsUrl-------ws://imwujiu.876315.com
+01-11 14:23:05.050 I/Xposed  ( 1191): beforeHookedMethodnull
+01-11 14:23:05.050 I/Xposed  ( 1191): afterHookedMethodnull
+01-11 14:23:06.997 I/Xposed  ( 1191): beforeHookedMethodnull
+01-11 14:23:06.997 I/Xposed  ( 1191): afterHookedMethodnull
+01-11 14:23:06.998 I/Xposed  ( 1191): beforeHookedMethodnull
+01-11 14:23:06.998 I/Xposed  ( 1191): afterHookedMethodnull
+01-11 14:23:06.999 I/Xposed  ( 1191): beforeHookedMethod{"current":1,"isAsc":false,"queryParam":"","size":20,"sort":"id"}
+01-11 14:23:07.000 I/Xposed  ( 1191): Base64--key--MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy93Ll96f4bY9RUMrc0/y/+p74SwkKFQU4qkFlaZ1AgUHoDGGW1B6d3yT+39kJNscQclc1mEqHJGTSNaL4l5+2On6xtOT65FpbP/XI09bPOlPFCOdTaJlqVZf8T8F65+AX/rkyoj9PlLJTxUv+UuudvvbOnRFCSTyszteP9sqzAQIDAQAB
+01-11 14:23:07.007 I/Xposed  ( 1191): afterHookedMethod{"encryptData":"5XlPnLICBKzLE/txl3O7tDbXExxEK+1+c1tRTkJEI92ZOGtz4+AJr5bGF1iKVsr5gXdiAAmiYRg/\n6NWzY3C9TBr0eUgsTRBGvjy88dbGDG8=\n","encryptKey":"NJty9d5G25FuQ08r+MP9s1TreuIZLqoIrCizWeYuSnZX87QBZA01eDk8R6n5LOLoUjRHuRYxuuRF\nRPTCVW+BYZyM7ObN7iHzL71DvgVX3cPzHGUDZ6ukF92Fe2SMWjEH4IZk/gF6TrfmVwbkEWTNvkbH\nvDaAYGI/LgmUTzIQtHw=\n","timestamp":1578723787005}
+01-11 14:23:07.643 I/Xposed  ( 1191): beforeHookedMethodnull
+01-11 14:23:07.643 I/Xposed  ( 1191): afterHookedMethodnull
+01-11 14:23:07.742 I/Xposed  ( 1191): beforeHookedMethod{"current":1,"isAsc":true,"queryParam":{"noticeType":1},"size":20,"sort":"id"}
+01-11 14:23:07.742 I/Xposed  ( 1191): Base64--key--MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy93Ll96f4bY9RUMrc0/y/+p74SwkKFQU4qkFlaZ1AgUHoDGGW1B6d3yT+39kJNscQclc1mEqHJGTSNaL4l5+2On6xtOT65FpbP/XI09bPOlPFCOdTaJlqVZf8T8F65+AX/rkyoj9PlLJTxUv+UuudvvbOnRFCSTyszteP9sqzAQIDAQAB
+01-11 14:23:07.744 I/Xposed  ( 1191): afterHookedMethod{"encryptData":"cNNjLnXe7C/cAT4Afg5vRNpIJ7TbehDWv2d6BJR3yy4cVGcjKwOFzg9npaw2djWYq+h7cd8NtpEN\nM9E+4D4cFZTmm6HQSV6vj4FmeXSAZL8=\n","encryptKey":"OI2zPzSWkmKrN/O476nnwk18JjJgpTLqnk7t5KZl47DNmAxJ+T+tkl6pmFdLr4EwBwBw4wPslkhc\nZrrsMiWy6jYNaGsCvTOUr0gzXjCmdOfLyVSRnSj/RnqC4Y8ml9p4Zgm2oV8E7TYCpL+OpRjkxvtA\n0RT7MNcbJXwm2kTmPe8=\n","timestamp":1578723787743}
+01-11 14:23:08.024 I/Xposed  ( 1191): beforeHookedMethodnull
+01-11 14:23:08.024 I/Xposed  ( 1191): afterHookedMethodnull
+01-11 14:23:08.072 I/Xposed  ( 1191): 签名--key--apkPath-------
+01-11 14:23:08.073 I/Xposed  ( 1191): 签名--key--accessToken-------eoso6XL188CZlNicw7RjoYUcz09djsT/E6i1y/zKlea1eOcN1l9DU0JsPi4X1lP6V8tru+nSSog1LLB56Oc5JXLwRTRo9mBrS7+3TBnNxL7vVc1eddHKB3qPEWZBRwMPZHYmoP4YIjo2Wg+Z+G7cS6tRo8T8gjWE2d54JiS7IEudq6CywEGCzvDwjKZ49zy5J/ZpFMm4Z/Y08gu5FBgl68Wx2agpr8Up7KXc3s0c3VB3yq+fg9uYyfmofL00uZvLlPLPw/B7FrSUX0rLpYzMa5uRexspoBzsEuNRm5v3KgR4Lemco9TeNspqaOZqDK1/BIttGzmUmrUeuWdXBEnocrzqKhYf9HvZ4Ez7M6f+gC+l8oYd+7BLulGXqNt/N29TEAk7rPYXB325VwTHQmJFYVi65fhlHjaC+VHgJgv0mWIiv/osl3H5VE/pD4KZItaSlUu4mbw4AR0MvNvN5rcY4AODY84slwtfAC1WltqWtESXj0YCYDPETHdC+NNGq+7jTujKOmd9NUoiPRt7Iwm48+zqHgHBK3+ZZ7xgwOzXBHFrV4hhD3AgLhRFU3IcOuIsrQAtcrIFVbnDfz/gMWDOQiwne8Uf49RdhRoBHDirdPX7kiBu5pVD1qmgCkysrwElCS7Wn191zlVklTHcD2jwIQkE5EcIH/3CzVLu7vQzv1klRlWO5ZvkijZ7AvRjerfBEzwLpZVRlAP8pYsAN/52cVj++hY49lhn34TcfMC4VsetbHlS8Lm/IAysV5yuPPzz73ljl9gXapxLmsFjCCzmcx64VXr5JJ9w7vREulNZtd6QMpVU+bgmnR8kREqY/kfybhg+UwltOkxT3sJ8DHCeHA7/eHV2X8AbeK4HvZ446MTsI/ILmGkBLOK4Bzn0qNRn
+01-11 14:23:08.073 I/Xposed  ( 1191): 签名--key--wsUrl-------ws://imwujiu.876315.com
+01-11 14:23:14.453 I/Xposed  ( 1191): beforeHookedMethod{"id":2}
+01-11 14:23:14.453 I/Xposed  ( 1191): Base64--key--MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy93Ll96f4bY9RUMrc0/y/+p74SwkKFQU4qkFlaZ1AgUHoDGGW1B6d3yT+39kJNscQclc1mEqHJGTSNaL4l5+2On6xtOT65FpbP/XI09bPOlPFCOdTaJlqVZf8T8F65+AX/rkyoj9PlLJTxUv+UuudvvbOnRFCSTyszteP9sqzAQIDAQAB
+01-11 14:23:14.454 I/Xposed  ( 1191): afterHookedMethod{"encryptData":"pt761bwfpoWUmKPM3TEGyw==\n","encryptKey":"OlwGFNlk4+FpFDtskgKmoNc//nh02TGTbXfQKKku2/svJUssnoDUSq9X9+MXkKWqlqFZMyZGmdyr\nXNkU2RJ3ODtq5eQkp6Sv6bibLLMbX+matU+Zixx4fxLPXXEUnl/kW9whWmhL0tHjxKtlEWps2QjR\nZwAXZPSxH5GIujQxigA=\n","timestamp":1578723794454}
+01-11 14:23:15.006 I/Xposed  ( 1191): beforeHookedMethod{"type":"0"}
+01-11 14:23:15.007 I/Xposed  ( 1191): Base64--key--MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy93Ll96f4bY9RUMrc0/y/+p74SwkKFQU4qkFlaZ1AgUHoDGGW1B6d3yT+39kJNscQclc1mEqHJGTSNaL4l5+2On6xtOT65FpbP/XI09bPOlPFCOdTaJlqVZf8T8F65+AX/rkyoj9PlLJTxUv+UuudvvbOnRFCSTyszteP9sqzAQIDAQAB
+01-11 14:23:15.008 I/Xposed  ( 1191): afterHookedMethod{"encryptData":"RgqUIMDcdrmtBADV+J2+Eg==\n","encryptKey":"HN6RLRvccfVbHKaVhpx19iCJNMdAsFFTvvzV5Uz21bUiNJMt8Vvkn1+3FU78UFeMpy3QfG4JBjIq\nLzBfD2+pOeZEXWPjb2OqVdH/9xGI7LCou53NvAM8wRNAyHy4KKjrVsBq0ItPAUQMjEi/hF2Kx6je\ntcNoJyefC6qxXCF1yYI=\n","timestamp":1578723795008}
+01-11 14:23:17.250 I/Xposed  ( 1191): beforeHookedMethod{"id":3}
+01-11 14:23:17.251 I/Xposed  ( 1191): Base64--key--MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy93Ll96f4bY9RUMrc0/y/+p74SwkKFQU4qkFlaZ1AgUHoDGGW1B6d3yT+39kJNscQclc1mEqHJGTSNaL4l5+2On6xtOT65FpbP/XI09bPOlPFCOdTaJlqVZf8T8F65+AX/rkyoj9PlLJTxUv+UuudvvbOnRFCSTyszteP9sqzAQIDAQAB
+01-11 14:23:17.253 I/Xposed  ( 1191): afterHookedMethod{"encryptData":"dqIOzIoVLtEzM4dKJHBEsA==\n","encryptKey":"b7NhOa02U2Mosm+JHtGmsLkPlYJ2pu/74czeoeqrkD6MaaMsHzQDPRTDeYXcyDQbdo+YKLOZZ9LG\n7GCJ7nk5pGEemU+Zc7UWqvY0qxlKMGZsDTMkmd+X3lwqhbqYqh4BlFkFEYX+SyoOFuXMJhHB/u/b\n6hZqVdxi1dqCv/gvcsY=\n","timestamp":1578723797253}
+01-11 14:23:17.726 I/Xposed  ( 1191): beforeHookedMethod{"type":"1"}
+01-11 14:23:17.726 I/Xposed  ( 1191): Base64--key--MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy93Ll96f4bY9RUMrc0/y/+p74SwkKFQU4qkFlaZ1AgUHoDGGW1B6d3yT+39kJNscQclc1mEqHJGTSNaL4l5+2On6xtOT65FpbP/XI09bPOlPFCOdTaJlqVZf8T8F65+AX/rkyoj9PlLJTxUv+UuudvvbOnRFCSTyszteP9sqzAQIDAQAB
+01-11 14:23:17.728 I/Xposed  ( 1191): afterHookedMethod{"encryptData":"xdm3TSn27rYc0854BRgBAg==\n","encryptKey":"og6g0tUKWDnmTBa5mrxgw8vL3jaNT4IfEoFKqT3KBskMIx+/Fhakkxc2EoE6yBB0PM4Aux31uLwC\nBs2G72LuBXhfULXIJFNhjWgFEDa4m375lCDXBulcFxTgco04hUMiFJ8LAGFKctvpI7c4nztZ/QH3\nohawbD53Gs+d0pgTpbY=\n","timestamp":1578723797727}
+01-11 14:23:18.821 I/Xposed  ( 1191): beforeHookedMethod{"id":"31","pwd":""}
+01-11 14:23:18.821 I/Xposed  ( 1191): Base64--key--MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy93Ll96f4bY9RUMrc0/y/+p74SwkKFQU4qkFlaZ1AgUHoDGGW1B6d3yT+39kJNscQclc1mEqHJGTSNaL4l5+2On6xtOT65FpbP/XI09bPOlPFCOdTaJlqVZf8T8F65+AX/rkyoj9PlLJTxUv+UuudvvbOnRFCSTyszteP9sqzAQIDAQAB
+01-11 14:23:18.822 I/Xposed  ( 1191): afterHookedMethod{"encryptData":"z+W3+MLJ02AK5RavpXnq0p/IBQUWCP5YgXOYpkNqsLI=\n","encryptKey":"HKvxGbiyUrakFQRCk9RpellY2UbdzDfyS+Y4BrSv58qLBiAviyk2fXLQ8ojx+Vw9EUERyn2l6T87\n8K3SyLDiGx0Rqhyl3b0eC+HDsJ3ozlabePxnKj4xNieoOTrZq2at9agv50vJd43/SNaNR0tuRBx5\nZqSfeU2IwBexdpXiAJk=\n","timestamp":1578723798822}
+01-11 14:23:21.392 I/Xposed  ( 1191): 红包信息-----{"count":7,"money":12.0,"num":8,"redpacketId":1270812,"type":1}
+01-11 14:23:21.405 I/Xposed  ( 1191): 红包信息-----{"count":7,"money":28.0,"num":7,"redpacketId":1270810,"type":1}
+01-11 14:23:21.413 I/Xposed  ( 1191): 红包信息-----{"count":7,"money":16.0,"num":2,"redpacketId":1270805,"type":1}
+01-11 14:23:21.422 I/Xposed  ( 1191): 红包信息-----{"count":7,"money":33.0,"num":7,"redpacketId":1270801,"type":1}
+01-11 14:23:21.430 I/Xposed  ( 1191): 红包信息-----{"count":7,"money":6.0,"num":1,"redpacketId":1270798,"type":1}
+01-11 14:23:22.094 I/Xposed  ( 1191): beforeHookedMethod{"packetId":"1270812"}
+01-11 14:23:22.094 I/Xposed  ( 1191): Base64--key--MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy93Ll96f4bY9RUMrc0/y/+p74SwkKFQU4qkFlaZ1AgUHoDGGW1B6d3yT+39kJNscQclc1mEqHJGTSNaL4l5+2On6xtOT65FpbP/XI09bPOlPFCOdTaJlqVZf8T8F65+AX/rkyoj9PlLJTxUv+UuudvvbOnRFCSTyszteP9sqzAQIDAQAB
+01-11 14:23:22.095 I/Xposed  ( 1191): afterHookedMethod{"encryptData":"aZ5RSZTE3QbQKOY9wspjU57SIvlryxibHxgE7GCfFVM=\n","encryptKey":"ptYkIrt0hDZIdFPf2eBmRB1lcBPMGJoJ4gK5zfHisRyhfQDzKYFpysOt0AGoUoHZjoGtB/MEdHUY\n0Hrbvitp8WzfqdHgwGeY0bsNmjYSP/h6RsBMh2Kg5zqnaQNT6aiRwdpjzJWkhaYXRAmwsFoGv4WR\nD5vSXTo5MCy9/aaqXfs=\n","timestamp":1578723802095}
+01-11 14:23:23.329 I/Xposed  ( 1191): beforeHookedMethod{"packetId":"1270812"}
+01-11 14:23:23.329 I/Xposed  ( 1191): Base64--key--MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy93Ll96f4bY9RUMrc0/y/+p74SwkKFQU4qkFlaZ1AgUHoDGGW1B6d3yT+39kJNscQclc1mEqHJGTSNaL4l5+2On6xtOT65FpbP/XI09bPOlPFCOdTaJlqVZf8T8F65+AX/rkyoj9PlLJTxUv+UuudvvbOnRFCSTyszteP9sqzAQIDAQAB
+01-11 14:23:23.330 I/Xposed  ( 1191): afterHookedMethod{"encryptData":"ENW/YWs0r5hDGpxvOk/5bxfwwmMfufwfSywbws7L1c8=\n","encryptKey":"AWrqqgySH2ICfPK0TsraePKguL0I5yBdPL3Niq652Qqz1ouSrAglKIFwJIDAw02Ah0WLWSBGhgoe\nH8DT8JZwGXePROrj+Me/Eluz0qgSytty8Po+hTKtBCLJSkiQEhANgkGjiUCn9Fug7kxT6iDz0Mvx\nL3FmrtirZVW/Tsb6l94=\n","timestamp":1578723803330}
+01-11 14:23:26.089 I/Xposed  ( 1390): Loaded app: de.robv.android.xposed.installer
+01-11 14:23:28.263 I/Xposed  ( 1191): 红包信息-----{"count":7,"money":25.0,"num":7,"redpacketId":1270814,"type":1}
